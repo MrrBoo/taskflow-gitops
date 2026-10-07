@@ -84,8 +84,26 @@ On peut voir qu'on retrouve la version d'origine
 
 ## Lab Après-midi
 
-On remplace le contenu du deployment.yaml par celui de bluegreen/rollout.yaml et on change la version par 1.1.0
+# Blue-Green
 
-<img width="454" height="248" alt="image" src="https://github.com/user-attachments/assets/d2dacd99-3818-4193-9967-f19f47ae11bb" />
+On remplace le path dans application.yaml par contenu par celui de bluegreen/rollout.yaml, on change la version de l'image par 1.1.0 puis on merge.
 
+<img width="454" height="253" alt="image" src="https://github.com/user-attachments/assets/02bfc32a-edd6-4920-af71-acd6a4c63d16" />
 
+On fait un kubectl apply avec le fichier application.yaml qui va pointer sur bluegreen/rollout.yaml
+
+<img width="454" height="222" alt="image" src="https://github.com/user-attachments/assets/97d51349-d0a8-4cbe-9207-8819bf31ff14" />
+
+On peut voir sur argocd qu'on a notre rollout qui apparait
+
+<img width="454" height="222" alt="image" src="https://github.com/user-attachments/assets/a8a47975-b722-4033-a91e-c953b8e4d7f1" />
+
+<img width="454" height="218" alt="image" src="https://github.com/user-attachments/assets/acf4d4d2-65d3-4b49-a47d-bc873ab30408" />
+
+Après quelques secondes/minutes on peut voir que le rollout est terminé et que la montée de version a été faite
+
+<img width="454" height="249" alt="image" src="https://github.com/user-attachments/assets/91ab68f3-d71f-474d-93f0-9eee228069b8" />
+
+<img width="218" height="126" alt="image" src="https://github.com/user-attachments/assets/4079d866-ab25-495f-aeea-888eb993a4e1" />
+
+# Canary
