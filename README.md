@@ -42,14 +42,50 @@ Ibrahim KONE
 Stanislas DE DIEULEVEULT
 <!-- Noms du binôme -->
 
+## Lab Matin
+
+On commence par ajouter notre pseudo dans le fichier argocd/application.yaml
+
 <img width="454" height="452" alt="image" src="https://github.com/user-attachments/assets/64b6c5ec-fac1-4020-a408-3ae63e356592" />
+
+On créer le cluster puis on fait un kubectl apply du fichier argocd/application.yaml
 
 <img width="454" height="216" alt="image" src="https://github.com/user-attachments/assets/31555e43-ab98-410f-846f-82a7e01fbe52" />
 
+On regarde l'état du cluster (SYNC et HEALTH) sur argocd, on peut également exécuter le script observe.sh qui nous montre la version utilisé
+
 <img width="448" height="30" alt="image" src="https://github.com/user-attachments/assets/dfa050ac-3926-419c-905b-04af5e5810a4" />
+
+On modifie la version en passant en 2.0.0 puis on effectue une merge-request. Après quelques secondes (1 min max) on voit que la version de deployment change et passe à 2.0.0
 
 <img width="454" height="306" alt="image" src="https://github.com/user-attachments/assets/15cf391c-dc8c-425d-a66a-dc11844922ea" />
 
 <img width="253" height="140" alt="image" src="https://github.com/user-attachments/assets/5d377ca2-b4c2-421a-a7a8-7cfe1f40d914" />
 
 <img width="454" height="278" alt="image" src="https://github.com/user-attachments/assets/c9f74a10-5d1d-4a18-825e-99622b38bdad" />
+
+On fait un kubectl scale, puis un set image pour faire une dérive et voir le comportement de argocd.
+
+<img width="454" height="92" alt="image" src="https://github.com/user-attachments/assets/a8c693a8-53c8-4c04-81c1-87fb417b3c8d" />
+
+<img width="454" height="19" alt="image" src="https://github.com/user-attachments/assets/6248f698-c83a-4718-ab9c-c3834d244a8a" />
+
+On voit que argocd supprimer le pod avec l'image modifiée et en recrée un avec la bonne image
+
+<img width="454" height="255" alt="image" src="https://github.com/user-attachments/assets/2e9f98e8-688d-418b-938f-3c17daa80493" />
+
+On retourne sur la PR qu'on vient de faire et on effectue un revert
+
+<img width="454" height="322" alt="image" src="https://github.com/user-attachments/assets/49294629-37f7-461e-9b4c-f3e9bc213c44" />
+
+On peut voir qu'on retrouve la version d'origine
+
+<img width="218" height="125" alt="image" src="https://github.com/user-attachments/assets/b1184b48-d400-49df-8a69-94000f04a389" />
+
+## Lab Après-midi
+
+On remplace le contenu du deployment.yaml par celui de bluegreen/rollout.yaml et on change la version par 1.1.0
+
+<img width="454" height="248" alt="image" src="https://github.com/user-attachments/assets/d2dacd99-3818-4193-9967-f19f47ae11bb" />
+
+
