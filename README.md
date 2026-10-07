@@ -118,6 +118,9 @@ On peut voir qu'on est toujours sous blue-green
 
 On fait un kubectl apply et on voit que canary est bien utilisé
 
-<img width="454" height="245" alt="image" src="https://github.com/user-attachments/assets/c7d6cae9-4873-409a-8aee-f85672c35aaf" />
+<img width="454" height="313" alt="image" src="https://github.com/user-attachments/assets/de639e1e-1514-4b7f-b66b-e44b68716d51" />
 
+Le rollout est en cours
+
+<img width="2264" height="1158" alt="image" src="https://github.com/user-attachments/assets/2756b59d-cac2-41fc-8b2b-f498e97e279d" />
 
