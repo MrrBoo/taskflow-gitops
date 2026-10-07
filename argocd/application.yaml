@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/MrrBoo/taskflow-gitops.git
     targetRevision: main
-    path: exemples/bluegreen
+    path: exemples/canary
   destination:
     server: https://kubernetes.default.svc
     namespace: taskflow
