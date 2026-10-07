@@ -128,3 +128,6 @@ La version de l'image est en train de changer grâce à canary
 
 <img width="448" height="390" alt="image" src="https://github.com/user-attachments/assets/5b1aa8e0-968d-4ab7-9dc3-bc9c5a7e227f" />
 
+On promote à 100%
+
+<img width="1482" height="662" alt="image" src="https://github.com/user-attachments/assets/a73bc6e0-2ff3-4626-a957-b98e6fb3914c" />
