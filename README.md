@@ -71,3 +71,14 @@ On fait un kubectl scale, puis un set image pour faire une dérive et voir le co
 On voit que argocd supprimer le pod avec l'image modifiée et en recrée un avec la bonne image
 
 <img width="454" height="255" alt="image" src="https://github.com/user-attachments/assets/2e9f98e8-688d-418b-938f-3c17daa80493" />
+
+On retourne sur la PR qu'on vient de faire et on effectue un revert
+
+<img width="454" height="322" alt="image" src="https://github.com/user-attachments/assets/49294629-37f7-461e-9b4c-f3e9bc213c44" />
+
+On peut voir qu'on retrouve la version d'origine
+
+<img width="218" height="125" alt="image" src="https://github.com/user-attachments/assets/b1184b48-d400-49df-8a69-94000f04a389" />
+
+
+
