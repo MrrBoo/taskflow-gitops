@@ -107,3 +107,17 @@ Après quelques secondes/minutes on peut voir que le rollout est terminé et que
 <img width="218" height="126" alt="image" src="https://github.com/user-attachments/assets/4079d866-ab25-495f-aeea-888eb993a4e1" />
 
 ## Canary
+
+Comme pour Blue-green, on modifie le path dans application.yaml pour pointer vers exemples/canary
+
+<img width="1500" height="1086" alt="image" src="https://github.com/user-attachments/assets/d89aff86-c089-44ba-8fa2-edff01ba8f0d" />
+
+On peut voir qu'on est toujours sous blue-green
+
+<img width="454" height="245" alt="image" src="https://github.com/user-attachments/assets/38186262-d936-426f-aac4-bae4b9083354" />
+
+On fait un kubectl apply et on voit que canary est bien utilisé
+
+<img width="454" height="245" alt="image" src="https://github.com/user-attachments/assets/c7d6cae9-4873-409a-8aee-f85672c35aaf" />
+
+
