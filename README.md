@@ -124,3 +124,7 @@ Le rollout est en cours
 
 <img width="2264" height="1158" alt="image" src="https://github.com/user-attachments/assets/2756b59d-cac2-41fc-8b2b-f498e97e279d" />
 
+La version de l'image est en train de changer grâce à canary
+
+<img width="448" height="390" alt="image" src="https://github.com/user-attachments/assets/5b1aa8e0-968d-4ab7-9dc3-bc9c5a7e227f" />
+
