@@ -42,6 +42,8 @@ Ibrahim KONE
 Stanislas DE DIEULEVEULT
 <!-- Noms du binôme -->
 
+## Lab Matin
+
 On commence par ajouter notre pseudo dans le fichier argocd/application.yaml
 
 <img width="454" height="452" alt="image" src="https://github.com/user-attachments/assets/64b6c5ec-fac1-4020-a408-3ae63e356592" />
@@ -80,5 +82,10 @@ On peut voir qu'on retrouve la version d'origine
 
 <img width="218" height="125" alt="image" src="https://github.com/user-attachments/assets/b1184b48-d400-49df-8a69-94000f04a389" />
 
+## Lab Après-midi
+
+On remplace le contenu du deployment.yaml par celui de bluegreen/rollout.yaml et on change la version par 1.1.0
+
+<img width="454" height="248" alt="image" src="https://github.com/user-attachments/assets/d2dacd99-3818-4193-9967-f19f47ae11bb" />
 
 
