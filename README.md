@@ -54,9 +54,9 @@ On regarde l'état du cluster (SYNC et HEALTH) sur argocd, on peut également ex
 
 <img width="448" height="30" alt="image" src="https://github.com/user-attachments/assets/dfa050ac-3926-419c-905b-04af5e5810a4" />
 
-<img width="454" height="306" alt="image" src="https://github.com/user-attachments/assets/15cf391c-dc8c-425d-a66a-dc11844922ea" />
-
 On modifie la version en passant en 2.0.0 puis on effectue une merge-request. Après quelques secondes (1 min max) on voit que la version de deployment change et passe à 2.0.0
+
+<img width="454" height="306" alt="image" src="https://github.com/user-attachments/assets/15cf391c-dc8c-425d-a66a-dc11844922ea" />
 
 <img width="253" height="140" alt="image" src="https://github.com/user-attachments/assets/5d377ca2-b4c2-421a-a7a8-7cfe1f40d914" />
 
