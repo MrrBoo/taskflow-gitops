@@ -82,9 +82,9 @@ On peut voir qu'on retrouve la version d'origine
 
 <img width="218" height="125" alt="image" src="https://github.com/user-attachments/assets/b1184b48-d400-49df-8a69-94000f04a389" />
 
-## Lab Après-midi
+# Lab Après-midi
 
-# Blue-Green
+## Blue-Green
 
 On remplace le path dans application.yaml par contenu par celui de bluegreen/rollout.yaml, on change la version de l'image par 1.1.0 puis on merge.
 
@@ -106,4 +106,4 @@ Après quelques secondes/minutes on peut voir que le rollout est terminé et que
 
 <img width="218" height="126" alt="image" src="https://github.com/user-attachments/assets/4079d866-ab25-495f-aeea-888eb993a4e1" />
 
-# Canary
+## Canary
