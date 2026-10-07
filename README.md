@@ -42,13 +42,21 @@ Ibrahim KONE
 Stanislas DE DIEULEVEULT
 <!-- Noms du binôme -->
 
+On commence par ajouter notre pseudo dans le fichier argocd/application.yaml
+
 <img width="454" height="452" alt="image" src="https://github.com/user-attachments/assets/64b6c5ec-fac1-4020-a408-3ae63e356592" />
 
+On créer le cluster puis on fait un kubectl apply du fichier argocd/application.yaml
+
 <img width="454" height="216" alt="image" src="https://github.com/user-attachments/assets/31555e43-ab98-410f-846f-82a7e01fbe52" />
+
+On regarde l'état du cluster (SYNC et HEALTH) sur argocd, on peut également exécuter le script observe.sh qui nous montre la version utilisé
 
 <img width="448" height="30" alt="image" src="https://github.com/user-attachments/assets/dfa050ac-3926-419c-905b-04af5e5810a4" />
 
 <img width="454" height="306" alt="image" src="https://github.com/user-attachments/assets/15cf391c-dc8c-425d-a66a-dc11844922ea" />
+
+On modifie la version en passant en 2.0.0 puis on effectue une merge-request. Après quelques secondes (1 min max) on voit que la version de deployment change et passe à 2.0.0
 
 <img width="253" height="140" alt="image" src="https://github.com/user-attachments/assets/5d377ca2-b4c2-421a-a7a8-7cfe1f40d914" />
 
