@@ -61,3 +61,13 @@ On modifie la version en passant en 2.0.0 puis on effectue une merge-request. Ap
 <img width="253" height="140" alt="image" src="https://github.com/user-attachments/assets/5d377ca2-b4c2-421a-a7a8-7cfe1f40d914" />
 
 <img width="454" height="278" alt="image" src="https://github.com/user-attachments/assets/c9f74a10-5d1d-4a18-825e-99622b38bdad" />
+
+On fait un kubectl scale, puis un set image pour faire une dérive et voir le comportement de argocd.
+
+<img width="454" height="92" alt="image" src="https://github.com/user-attachments/assets/a8c693a8-53c8-4c04-81c1-87fb417b3c8d" />
+
+<img width="454" height="19" alt="image" src="https://github.com/user-attachments/assets/6248f698-c83a-4718-ab9c-c3834d244a8a" />
+
+On voit que argocd supprimer le pod avec l'image modifiée et en recrée un avec la bonne image
+
+<img width="454" height="255" alt="image" src="https://github.com/user-attachments/assets/2e9f98e8-688d-418b-938f-3c17daa80493" />
