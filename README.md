@@ -200,4 +200,7 @@ On ajoute le .trivyignore pour bypass l'erreur
 
 <img width="1376" height="568" alt="image" src="https://github.com/user-attachments/assets/7e1d9a27-4c34-48e8-96dc-00e4c80964b7" />
 
+On refait une PR et on voit que tout est vert
+
+<img width="714" height="500" alt="image" src="https://github.com/user-attachments/assets/56e852c2-4003-4336-8103-521027325375" />
 
