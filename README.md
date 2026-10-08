@@ -160,3 +160,12 @@ On change la version de l'image par 2.1.0 et on observe des erreurs grâce à l'
 
 <img width="1970" height="1002" alt="image" src="https://github.com/user-attachments/assets/b36010cd-efe2-4de4-80d9-37e590a955f3" />
 
+On passe la version de l'image à 2.2.0, on synchronise avec argocd et on regarde l'état
+
+<img width="454" height="283" alt="image" src="https://github.com/user-attachments/assets/2093780d-9a54-4f42-b112-194f01fdade7" />
+
+On voit que tout est bon
+
+<img width="454" height="283" alt="image" src="https://github.com/user-attachments/assets/359e5999-18a6-4961-9069-b5816586c3c2" />
+
+
