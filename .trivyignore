@@ -1,0 +1,15 @@
+# Exception PSSI-R5 - Ignorer les CVEs de starlette et urllib3 sur l'image v1.0.0
+# Date : 2026-10-08
+
+# starlette
+CVE-2025-62727
+CVE-2026-48818
+CVE-2026-54283
+
+# urllib3
+CVE-2025-66418
+CVE-2025-66471
+CVE-2026-21441
+CVE-2026-44431
+CVE-2026-97687
+CVE-2026-97689
