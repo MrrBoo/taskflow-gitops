@@ -156,3 +156,7 @@ On crée une nouvelle branche feat/analyse-auto dans laquelle on utilise les fic
 
 <img width="454" height="123" alt="image" src="https://github.com/user-attachments/assets/ce1fa47f-7a18-4e27-8775-ae0b5685895f" />
 
+On change la version de l'image par 2.1.0 et on observe que le rollout a des erreurs
+
+<img width="1970" height="1002" alt="image" src="https://github.com/user-attachments/assets/b36010cd-efe2-4de4-80d9-37e590a955f3" />
+
