@@ -168,4 +168,36 @@ On voit que tout est bon
 
 <img width="454" height="283" alt="image" src="https://github.com/user-attachments/assets/359e5999-18a6-4961-9069-b5816586c3c2" />
 
+## Lab Après-midi
+
+On utilise conftest pour tester les règles R1 et R2 et on voit que tout passe
+
+<img width="454" height="35" alt="image" src="https://github.com/user-attachments/assets/6b2232e1-43ea-4577-a0f4-bba1cb559e46" />
+
+On écrit les règles R3 et R4 et on refait un conftest, on voit qu'on a des erreurs
+
+<img width="2060" height="726" alt="image" src="https://github.com/user-attachments/assets/1298de15-f4c0-461e-b064-5371d8f6735c" />
+
+<img width="454" height="34" alt="image" src="https://github.com/user-attachments/assets/a15def7a-b202-4b6c-b8c5-be1fe8b87060" />
+
+On ajoute securityContext: runAsNonRoot: true au pod et on refait un conftest et on peut voir maintenant que ça passe
+
+<img width="454" height="301" alt="image" src="https://github.com/user-attachments/assets/226b533c-2a96-4d61-85a2-881d716f5426" />
+
+<img width="454" height="36" alt="image" src="https://github.com/user-attachments/assets/d46f3d67-df3e-4366-8235-9020eb4223f8" />
+
+On ajoute le workflow pssi-github et on fait une PR et on voit qu'on a une erreur
+
+<img width="454" height="475" alt="image" src="https://github.com/user-attachments/assets/e14143d6-2ed9-425d-80bf-ce0b6b8f39c2" />
+
+<img width="454" height="268" alt="image" src="https://github.com/user-attachments/assets/d9c47092-f265-46ac-9c02-952186251d7e" />
+
+On ajoute le ruleset pour rendre obligatoire conftest et Trivy
+
+<img width="454" height="216" alt="image" src="https://github.com/user-attachments/assets/32822b10-cce2-4432-a0c0-d0ad64cf8e26" />
+
+On ajoute le .trivyignore pour bypass l'erreur
+
+<img width="1376" height="568" alt="image" src="https://github.com/user-attachments/assets/7e1d9a27-4c34-48e8-96dc-00e4c80964b7" />
+
 
