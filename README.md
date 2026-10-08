@@ -46,6 +46,8 @@ Ibrahim KONE
 Stanislas DE DIEULEVEULT
 <!-- Noms du binôme -->
 
+# Jour 2
+
 ## Lab Matin
 
 On commence par ajouter notre pseudo dans le fichier argocd/application.yaml
@@ -86,9 +88,9 @@ On peut voir qu'on retrouve la version d'origine
 
 <img width="218" height="125" alt="image" src="https://github.com/user-attachments/assets/b1184b48-d400-49df-8a69-94000f04a389" />
 
-# Lab Après-midi
+## Lab Après-midi
 
-## Blue-Green
+### Blue-Green
 
 On remplace le path dans application.yaml par contenu par celui de bluegreen/rollout.yaml, on change la version de l'image par 1.1.0 puis on merge.
 
@@ -110,7 +112,7 @@ Après quelques secondes/minutes on peut voir que le rollout est terminé et que
 
 <img width="218" height="126" alt="image" src="https://github.com/user-attachments/assets/4079d866-ab25-495f-aeea-888eb993a4e1" />
 
-## Canary
+### Canary
 
 Comme pour Blue-green, on modifie le path dans application.yaml pour pointer vers exemples/canary
 
@@ -135,3 +137,22 @@ La version de l'image est en train de changer grâce à canary
 On promote à 100%
 
 <img width="1482" height="662" alt="image" src="https://github.com/user-attachments/assets/a73bc6e0-2ff3-4626-a957-b98e6fb3914c" />
+
+# Jour 3
+
+## Lab matin
+
+On commence par faire un sync fork pour mettre à jour le repo et on vérifie que la version utilisée est bien 2.0.0
+
+<img width="1496" height="404" alt="image" src="https://github.com/user-attachments/assets/074a47e0-e339-4035-8106-e04ad2d4a39e" />
+
+On exécute le script charge.sh http://taskflow et on remarque qu'il n'y a pas d'erreurs et le p95 est à 5.17ms
+
+<img width="454" height="297" alt="image" src="https://github.com/user-attachments/assets/e89f1af9-f399-4189-a6fd-d1a496ce6649" />
+
+On crée une nouvelle branche feat/analyse-auto dans laquelle on utilise les fichiers de exemples/robustesse et on merge. On sync ensuite sur argocd et on peut voir le configmap et le analysistemplate
+
+<img width="454" height="219" alt="image" src="https://github.com/user-attachments/assets/21e9e3e4-0765-4da1-9218-1ba66c455a36" />
+
+<img width="454" height="123" alt="image" src="https://github.com/user-attachments/assets/ce1fa47f-7a18-4e27-8775-ae0b5685895f" />
+
